@@ -1,0 +1,8 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mix;
+
+.page-container {
+    margin: 0;
+    padding: 0;
+    background-color: var.$highlight-color;
+}
