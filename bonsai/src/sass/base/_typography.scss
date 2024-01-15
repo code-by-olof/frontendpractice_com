@@ -1,2 +1,19 @@
 @use '../abstracts/variables' as var;
 @use '../abstracts/mixins' as mix;
+
+@font-face {
+    font-family: "Amerigo BT Roman";
+    src: url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.eot");
+    src: url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.svg#Amerigo BT Roman")format("svg");
+}
+
+// Roboto fonts
+// Thin: 100
+// Light: 300
+// Regular: 400
+// Medium: 500
+// font-family: 'Roboto', sans-serif;

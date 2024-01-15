@@ -1,2 +1,8 @@
 @use '../abstracts/variables' as var;
 @use '../abstracts/mixins' as mix;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
