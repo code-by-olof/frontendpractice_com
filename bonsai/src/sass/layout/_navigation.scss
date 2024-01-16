@@ -4,4 +4,24 @@
 
 nav {
     border: 1px solid red;
+
+    .nav__ul--level-1 {
+        display: flex;
+    }
+
+    .li--level-1 {
+        margin: 0 71px 0 0;
+        font-family: Roboto, sans-serif;
+
+        a:link,
+        a:active,
+        a:visited {
+            color: var.$text-color-default;
+            text-decoration: none;
+        }
+    }
+
+    .li--level-1:last-of-type {
+        margin: 0;
+    }
 }
