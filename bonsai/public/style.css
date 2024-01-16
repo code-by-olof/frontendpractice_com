@@ -31,8 +31,31 @@ nav .li--level-1 a:visited {
   color: #4c4d5f;
   text-decoration: none;
 }
+nav .li--level-1 a:hover,
+nav .li--level-1 a:focus {
+  color: #1a1a21;
+}
 nav .li--level-1:last-of-type {
   margin: 0;
+}
+
+.toogle-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+  width: 30px;
+  cursor: pointer;
+}
+.toogle-nav .toogle-nav__hr {
+  display: block;
+}
+.toogle-nav .toogle-nav__hr--white {
+  border: 4px solid #fff;
+}
+.toogle-nav .toogle-nav__hr--gray {
+  border: 2px solid #4c4d5f;
+  border-radius: 2px;
 }
 
 .page-container {
@@ -46,7 +69,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: lightcyan;
 }
 header .header__a--logo-desktop {
   display: block;

@@ -19,9 +19,37 @@ nav {
             color: var.$text-color-default;
             text-decoration: none;
         }
+
+        a:hover,
+        a:focus {
+            color: var.$text-color-focus;
+        }
     }
 
     .li--level-1:last-of-type {
         margin: 0;
     }
+}
+
+.toogle-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    width: 30px;
+    cursor: pointer;
+
+    .toogle-nav__hr {
+        display: block;        
+
+        &--white {            
+            border: 4px solid var.$white;
+        }
+
+        &--gray {
+            border: 2px solid var.$text-color-default;
+            border-radius: 2px;
+        }        
+    }
+
 }
