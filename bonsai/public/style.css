@@ -9,8 +9,32 @@
   src: url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.eot");
   src: url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.woff") format("woff"), url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.svg#Amerigo BT Roman") format("svg");
 }
+nav {
+  border: 1px solid red;
+}
+
 .page-container {
-  margin: 0;
-  padding: 0;
-  background-color: #00b289;
+  margin: 0px auto;
+  width: 1024px;
+  height: auto;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: lightcyan;
+}
+header .header__a--logo-desktop {
+  display: block;
+  width: 150px;
+  height: 32px;
+  background-image: url(../assets/img/logo-bonsai.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 150px auto;
+}
+header .header__a--logo-desktop span {
+  display: none;
 }

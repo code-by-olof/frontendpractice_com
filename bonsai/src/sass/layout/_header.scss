@@ -1,2 +1,24 @@
 @use '../abstracts/variables' as var;
 @use '../abstracts/mixins' as mix;
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    background-color: lightcyan;
+
+    .header__a--logo-desktop {
+        display: block;
+        width: 150px;
+        height: 32px;
+        background-image: url(../assets/img/logo-bonsai.svg);
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: 150px auto;
+    }    
+    
+    .header__a--logo-desktop span {
+        display: none;
+    }
+}

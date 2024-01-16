@@ -1,2 +1,7 @@
 @use '../abstracts/variables' as var;
 @use '../abstracts/mixins' as mix;
+
+
+nav {
+    border: 1px solid red;
+}

@@ -2,7 +2,7 @@
 @use '../abstracts/mixins' as mix;
 
 .page-container {
-    margin: 0;
-    padding: 0;
-    background-color: var.$highlight-color;
+    margin: 0px auto;
+    width: 1024px;
+    height: auto;
 }
