@@ -58,6 +58,16 @@ nav .li--level-1:last-of-type {
   border-radius: 2px;
 }
 
+@media (width > 1024px) and (orientation: landscape) {
+  .toogle-nav {
+    display: none;
+  }
+}
+@media (width > 1024px) and (orientation: landscape) {
+  .toogle-nav {
+    display: none;
+  }
+}
 .page-container {
   margin: 0px auto;
   width: 1024px;

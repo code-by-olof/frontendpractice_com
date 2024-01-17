@@ -53,3 +53,19 @@ nav {
     }
 
 }
+
+// dekstop
+@media (width > 1024px ) and (orientation: landscape) {
+    
+    .toogle-nav {
+        display: none;
+    }
+}
+
+// mobile
+@media (width > 1024px ) and (orientation: landscape) {
+    
+    .toogle-nav {
+        display: none;
+    }
+}
