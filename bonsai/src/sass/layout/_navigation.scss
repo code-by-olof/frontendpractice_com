@@ -47,7 +47,6 @@ nav {
 .toggle-nav {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     height: auto;
     width: 30px;
     cursor: pointer;
@@ -64,7 +63,40 @@ nav {
             border-radius: 2px;
         }        
     }
+}
 
+.toggle-nav--show-nav {
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.toggle-nav--hide-nav {
+    width: 30px;
+    height: 30px;    
+    display: block;
+    
+    .toggle-nav__hr--white {
+        display: none;
+    }
+
+    .toggle-nav__hr:nth-child(3) {
+        display: none;
+    }
+
+    .toggle-nav__hr:nth-child(1) {
+        transform: rotate(45deg);
+        position: relative;
+        top: 41%;
+        left: 0;
+    }
+
+    .toggle-nav__hr:nth-child(5) {
+        transform: rotate(-45deg);
+        position: relative;
+        top: 30%;
+        right: 0;
+    }    
 }
 
 
