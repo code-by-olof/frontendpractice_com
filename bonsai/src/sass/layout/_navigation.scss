@@ -31,13 +31,16 @@ nav {
     }
 
     .li--dropwdown {
+        margin: 0 50px 0 0;
+        cursor: pointer;
+    }
+
+    .li--dropwdown a {
         background-image: url(./assets/img/icon_down.svg);
         background-repeat: no-repeat;
         background-position: right center;
         background-size: 10px auto;
         padding: 0 21px 0 0;
-        margin: 0 50px 0 0;
-        cursor: pointer;
     }
 }
 
@@ -77,16 +80,62 @@ nav {
 // dekstop
 @media (width > 1024px ) and (orientation: landscape) {
     
-    .toggle-nav {
+    toggle-nav {
         display: none;
     }
+
 }
 
 // mobile
 @media (width < 1024px ) {
 
-    .nav--desktop,
-    .action-btn {
-        display: none;
+    //.nav--desktop,
+
+    // NAVIGATION
+    nav {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 125px;
+    }  
+    
+    .nav__ul {
+        margin: 0px auto;
     }
+    
+    // LEVEL 1
+    .nav__ul--level-1 {
+        flex-direction: column;
+    }
+
+    .li--level-1 {
+        width: 100%; 
+    }
+
+    .li--level-1 a {
+        margin: 0 5%;
+        padding: 15px 0 15px 0 !important;
+        width: 90%;
+        display: block;
+        border-bottom: 1px solid var.$border-color-default;
+    }
+
+    // BUTTONS
+    .action-btn {
+        position: absolute;
+        top: 375px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button {
+        margin: 0;
+        width: 100%;
+
+        &:last-of-type {
+            margin: 17px 0 0 0;
+        }
+    }    
+
 }
