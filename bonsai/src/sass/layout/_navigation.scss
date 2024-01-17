@@ -78,9 +78,9 @@ nav {
 }
 
 // dekstop
-@media (width > 1024px ) and (orientation: landscape) {
+@media (width > 1024px ) {
     
-    toggle-nav {
+    .toggle-nav {
         display: none;
     }
 
@@ -89,7 +89,10 @@ nav {
 // mobile
 @media (width < 1024px ) {
 
-    //.nav--desktop,
+    .nav--desktop,
+    .action-btn--desktop {
+        visibility: hidden;
+    }
 
     // NAVIGATION
     nav {

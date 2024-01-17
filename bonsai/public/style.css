@@ -107,12 +107,16 @@ nav .li--dropwdown a {
   margin: 0;
 }
 
-@media (width > 1024px) and (orientation: landscape) {
-  toggle-nav {
+@media (width > 1024px) {
+  .toggle-nav {
     display: none;
   }
 }
 @media (width < 1024px) {
+  .nav--desktop,
+  .action-btn--desktop {
+    visibility: hidden;
+  }
   nav {
     width: 100%;
     position: absolute;
