@@ -113,9 +113,6 @@ nav .li--dropwdown a {
   }
 }
 @media (width < 1024px) {
-  .action-btn--desktop {
-    visibility: hidden;
-  }
   .nav {
     width: 100%;
     position: absolute;
@@ -158,6 +155,14 @@ nav .li--dropwdown a {
   }
   .button:last-of-type {
     margin: 17px 0 0 0;
+  }
+  .action-btn--mobile {
+    left: 5%;
+    transition: left 250ms ease-out;
+  }
+  .action-btn--desktop {
+    left: 100%;
+    transition: left 250ms ease-out;
   }
 }
 .page-container {
