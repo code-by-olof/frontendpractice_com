@@ -78,7 +78,7 @@ nav {
 }
 
 // dekstop
-@media (width > 1024px ) {
+@media (width > 1100px ) {
     
     .toggle-nav {
         display: none;
@@ -87,7 +87,7 @@ nav {
 }
 
 // mobile
-@media (width < 1024px ) {
+@media (width < 1100px ) {
 
     // NAVIGATION
     .nav {
