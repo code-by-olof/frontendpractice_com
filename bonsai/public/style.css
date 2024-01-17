@@ -115,7 +115,7 @@ nav .li--level-1:last-of-type {
 
 @media (width < 1024px) {
   .page-container {
-    width: 95%;
+    width: 90%;
   }
 }
 header {
