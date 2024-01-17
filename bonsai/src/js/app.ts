@@ -3,6 +3,7 @@ const navClassList = document.querySelector('.nav') as HTMLElement;
 
 
 const toggleMenu = (): void => {
+
     if(navClassList.classList[1] == 'nav--desktop') {
         navClassList.classList.remove('nav--desktop');
         navClassList.classList.add('nav--mobile');
