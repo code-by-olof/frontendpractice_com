@@ -10,20 +10,51 @@ ul li {
   list-style-image: none;
 }
 
+body {
+  font-size: 62.5%;
+}
+
 @font-face {
   font-family: "Amerigo BT Roman";
   src: url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.eot");
   src: url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.woff") format("woff"), url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/ab9e8eea3710ad4417e4a318556bc614.svg#Amerigo BT Roman") format("svg");
 }
-nav {
-  border: 1px solid red;
+.button {
+  border-radius: 5px;
+  padding: 11px 27px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
 }
+
+.button--light {
+  border: 1px solid #00b289;
+  background-color: #fff;
+  color: #00b289;
+}
+.button--light:hover, .button--light:focus {
+  background-color: #00b289;
+  color: #fff;
+}
+
+.button--dark {
+  border: none;
+  background-color: #00b289;
+  color: #fff;
+}
+.button--dark:hover, .button--dark:focus {
+  background-color: #008e6d;
+}
+
 nav .nav__ul--level-1 {
   display: flex;
 }
 nav .li--level-1 {
   margin: 0 71px 0 0;
   font-family: Roboto, sans-serif;
+  font-size: 1rem;
 }
 nav .li--level-1 a:link,
 nav .li--level-1 a:active,
@@ -56,6 +87,13 @@ nav .li--level-1:last-of-type {
 .toogle-nav .toogle-nav__hr--gray {
   border: 2px solid #4c4d5f;
   border-radius: 2px;
+}
+
+.action-btn button {
+  margin: 0 0 0 10px;
+}
+.action-btn button:first-of-type {
+  margin: 0;
 }
 
 @media (width > 1024px) and (orientation: landscape) {

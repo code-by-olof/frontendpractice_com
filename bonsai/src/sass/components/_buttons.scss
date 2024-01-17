@@ -1,2 +1,37 @@
 @use '../abstracts/variables' as var;
 @use '../abstracts/mixins' as mix;
+
+.button {
+    border-radius: 5px;
+    padding: 11px 27px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;    
+}
+
+.button--light {
+    border: 1px solid var.$highlight-color;
+    background-color: var.$white;
+    color: var.$highlight-color;
+
+    &:hover,
+    &:focus {
+        background-color: var.$highlight-color;
+        color: var.$white;
+    }
+    
+}
+
+.button--dark {
+    border: none;
+    background-color: var.$highlight-color;
+    color: var.$white;
+
+    &:hover,
+    &:focus {
+        background-color: var.$highlight-color-hover;
+    }
+    
+}

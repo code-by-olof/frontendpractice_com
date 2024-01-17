@@ -3,7 +3,6 @@
 
 
 nav {
-    border: 1px solid red;
 
     .nav__ul--level-1 {
         display: flex;
@@ -12,6 +11,7 @@ nav {
     .li--level-1 {
         margin: 0 71px 0 0;
         font-family: Roboto, sans-serif;
+        font-size: 1rem;
 
         a:link,
         a:active,
@@ -50,6 +50,16 @@ nav {
             border: 2px solid var.$text-color-default;
             border-radius: 2px;
         }        
+    }
+
+}
+
+
+.action-btn button {
+    margin: 0 0 0 10px;
+
+    &:first-of-type {
+        margin: 0;
     }
 
 }
