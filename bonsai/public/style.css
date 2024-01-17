@@ -63,8 +63,9 @@ nav .li--level-1:last-of-type {
     display: none;
   }
 }
-@media (width > 1024px) and (orientation: landscape) {
-  .toogle-nav {
+@media (width < 1024px) {
+  .nav--desktop,
+  .action-btn {
     display: none;
   }
 }
@@ -74,6 +75,11 @@ nav .li--level-1:last-of-type {
   height: auto;
 }
 
+@media (width < 1024px) {
+  .page-container {
+    width: 95%;
+  }
+}
 header {
   height: 80px;
   display: flex;

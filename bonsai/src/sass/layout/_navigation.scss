@@ -63,9 +63,10 @@ nav {
 }
 
 // mobile
-@media (width > 1024px ) and (orientation: landscape) {
-    
-    .toogle-nav {
+@media (width < 1024px ) {
+
+    .nav--desktop,
+    .action-btn {
         display: none;
     }
 }
