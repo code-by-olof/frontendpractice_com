@@ -4,6 +4,8 @@ const btnToggleNav = document.getElementById('toggle-nav');
 const navClassList = document.querySelector('.nav');
 const btnClassList = document.querySelector('.action-btn');
 const toggleMenu = () => {
+    console.log(btnClassList.classList);
+    console.log(navClassList.classList);
     if (navClassList.classList[1] == 'nav--desktop') {
         navClassList.classList.remove('nav--desktop');
         navClassList.classList.add('nav--mobile');
