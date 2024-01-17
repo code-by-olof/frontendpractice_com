@@ -31,7 +31,7 @@ nav {
     }
 }
 
-.toogle-nav {
+.toggle-nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -39,7 +39,7 @@ nav {
     width: 30px;
     cursor: pointer;
 
-    .toogle-nav__hr {
+    .toggle-nav__hr {
         display: block;        
 
         &--white {            
@@ -67,7 +67,7 @@ nav {
 // dekstop
 @media (width > 1024px ) and (orientation: landscape) {
     
-    .toogle-nav {
+    .toggle-nav {
         display: none;
     }
 }

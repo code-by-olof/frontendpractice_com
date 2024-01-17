@@ -70,7 +70,7 @@ nav .li--level-1:last-of-type {
   margin: 0;
 }
 
-.toogle-nav {
+.toggle-nav {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -78,13 +78,13 @@ nav .li--level-1:last-of-type {
   width: 30px;
   cursor: pointer;
 }
-.toogle-nav .toogle-nav__hr {
+.toggle-nav .toggle-nav__hr {
   display: block;
 }
-.toogle-nav .toogle-nav__hr--white {
+.toggle-nav .toggle-nav__hr--white {
   border: 4px solid #fff;
 }
-.toogle-nav .toogle-nav__hr--gray {
+.toggle-nav .toggle-nav__hr--gray {
   border: 2px solid #4c4d5f;
   border-radius: 2px;
 }
@@ -97,7 +97,7 @@ nav .li--level-1:last-of-type {
 }
 
 @media (width > 1024px) and (orientation: landscape) {
-  .toogle-nav {
+  .toggle-nav {
     display: none;
   }
 }
