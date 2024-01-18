@@ -69,3 +69,19 @@
     left: 27.5px;
     transition: left 100ms ease-in;
 }
+
+
+
+@media (width < 700px ) {
+
+    .section__section-heading {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            margin: 0 0 50px 0;
+        }
+    }
+    
+}

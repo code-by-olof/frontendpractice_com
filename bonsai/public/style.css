@@ -116,6 +116,16 @@ body {
   transition: left 100ms ease-in;
 }
 
+@media (width < 700px) {
+  .section__section-heading {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section__section-heading h1 {
+    margin: 0 0 50px 0;
+  }
+}
 nav .nav__ul--level-1 {
   display: flex;
 }
@@ -302,6 +312,11 @@ nav .li--dropwdown a {
 }
 
 @media (width < 1100px) {
+  .page-container {
+    width: 92.5%;
+  }
+}
+@media (width < 700px) {
   .page-container {
     width: 92.5%;
   }
