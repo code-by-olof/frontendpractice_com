@@ -129,16 +129,16 @@ body {
 
 .section__plan {
   overflow: hidden;
-  height: 300px;
+  height: auto;
   width: 32%;
   box-shadow: 0 0 21px 0 #eaeaea;
   border: 0.2px solid rgb(227, 227, 227);
   border-radius: 5px;
-  padding: 50px;
+  padding: 75px 50px 75px 50px;
 }
 .section__plan--most-popular-tag {
   position: relative;
-  bottom: 5px;
+  bottom: 35px;
   left: 100px;
   text-transform: uppercase;
   background-color: #00b289;
@@ -153,9 +153,13 @@ body {
 .section__plan--name {
   font-size: 1.5rem;
   font-weight: 500;
+  margin: 0 0 7px 0;
 }
 .section__plan--subtitle {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
+  line-height: 1.1rem;
+  margin: 0 0 19px 0;
+  width: 93%;
 }
 .section__plan--price {
   display: flex;
@@ -180,6 +184,10 @@ body {
 .section__plan--price__p {
   font-size: 3.3rem;
   font-weight: 700;
+}
+
+.section__plan--popular .section__plan--name {
+  margin: -40px 0 0 0;
 }
 
 @media (width < 1100px) {
