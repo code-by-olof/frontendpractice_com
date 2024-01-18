@@ -128,8 +128,8 @@ body {
 .section__plan {
   height: 300px;
   width: 32%;
-  background-color: #fff;
-  border: 1px solid #bebebe;
+  box-shadow: 0 0 21px 0 #eaeaea;
+  border: 0.2px solid rgb(227, 227, 227);
   border-radius: 5px;
 }
 
