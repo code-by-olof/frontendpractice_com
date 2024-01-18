@@ -26,11 +26,21 @@
 
 .section__p--offer-label {
     text-transform: uppercase;
+    letter-spacing: 1px;
     font-size: 1rem;
     line-height: 30px;
     vertical-align: middle;
     font-weight: 500;
 }
+
+.section__p--selected-payplan {
+    color: var.$text-color-focus;
+}
+
+.section__p--disabled-payplan {
+    color: var.$text-color-default;
+}
+
 
 .section__price-switch {
     width: 57px;
@@ -38,4 +48,15 @@
     background-color: var.$highlight-color;
     border-radius: 17px;
     margin: 0 29px 0 29px;
+    cursor: pointer;
+}
+
+.section__switch {
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    background-color: var.$white;
+    position: relative;
+    top: 2.5px;
+    left: 2.5px;
 }

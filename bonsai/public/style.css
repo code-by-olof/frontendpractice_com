@@ -73,10 +73,19 @@ body {
 
 .section__p--offer-label {
   text-transform: uppercase;
+  letter-spacing: 1px;
   font-size: 1rem;
   line-height: 30px;
   vertical-align: middle;
   font-weight: 500;
+}
+
+.section__p--selected-payplan {
+  color: #1a1a21;
+}
+
+.section__p--disabled-payplan {
+  color: #4c4d5f;
 }
 
 .section__price-switch {
@@ -85,6 +94,17 @@ body {
   background-color: #00b289;
   border-radius: 17px;
   margin: 0 29px 0 29px;
+  cursor: pointer;
+}
+
+.section__switch {
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  background-color: #fff;
+  position: relative;
+  top: 2.5px;
+  left: 2.5px;
 }
 
 nav .nav__ul--level-1 {
