@@ -4,6 +4,7 @@
 .section__section-heading {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .price-toggle {
@@ -13,7 +14,6 @@
     background-image: url(./assets/img/text_offer-2-free-months.svg);
     background-repeat: no-repeat;
     background-position: top right;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -38,7 +38,7 @@
 }
 
 .section__p--disabled-payplan {
-    color: var.$text-color-default;
+    color: var.$text-color-disabled;
 }
 
 
@@ -57,6 +57,15 @@
     border-radius: 25px;
     background-color: var.$white;
     position: relative;
-    top: 2.5px;
-    left: 2.5px;
+    top: 2.5px;    
+}
+
+.section__switch.section__switch--monthly-plan {
+    left: 4.5px;
+    transition: left 100ms ease-in;
+}
+
+.section__switch.section__switch--yearly-plan {
+    left: 27.5px;
+    transition: left 100ms ease-in;
 }

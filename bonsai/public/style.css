@@ -51,6 +51,7 @@ body {
 .section__section-heading {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
 }
 
 .price-toggle {
@@ -60,7 +61,6 @@ body {
   background-image: url(./assets/img/text_offer-2-free-months.svg);
   background-repeat: no-repeat;
   background-position: top right;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -85,7 +85,7 @@ body {
 }
 
 .section__p--disabled-payplan {
-  color: #4c4d5f;
+  color: #939395;
 }
 
 .section__price-switch {
@@ -104,7 +104,16 @@ body {
   background-color: #fff;
   position: relative;
   top: 2.5px;
-  left: 2.5px;
+}
+
+.section__switch.section__switch--monthly-plan {
+  left: 4.5px;
+  transition: left 100ms ease-in;
+}
+
+.section__switch.section__switch--yearly-plan {
+  left: 27.5px;
+  transition: left 100ms ease-in;
 }
 
 nav .nav__ul--level-1 {
@@ -289,6 +298,7 @@ nav .li--dropwdown a {
   font-family: "Amerigo BT Roman";
   font-size: 2.5rem;
   font-weight: normal;
+  color: #4c4d5f;
 }
 
 @media (width < 1100px) {
