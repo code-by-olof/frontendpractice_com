@@ -1,4 +1,12 @@
 .section__section-heading {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.price-toggle {
+    margin: 0 0 0 5%;
+    height: 48px;
+    width: auto;
+    min-width: 130px;
+    border: 1px solid red;
 }

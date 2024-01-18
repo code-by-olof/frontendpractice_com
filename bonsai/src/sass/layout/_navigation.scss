@@ -114,8 +114,7 @@ nav {
     
     .toggle-nav,
     .nav--mobile,
-    .action-btn--mobile,
-    .action-btn--desktop {
+    .action-btn--mobile{
         display: none;
     }
 
@@ -133,12 +132,12 @@ nav {
 
         &.nav--mobile {
             left: 0%;
-            transition: left 250ms ease-out;
+            transition: left 150ms ease-out;
         }
 
         &.nav--desktop {
             left: -100%;
-            transition: left 250ms ease-out;      
+            transition: left 150ms ease-out;      
         }
 
 
@@ -188,14 +187,14 @@ nav {
     .action-btn--mobile {
        left: 5%; 
        transition-delay: 100ms;
-       transition: left 250ms ease-out;
+       transition: left 150ms ease-out;
     }
 
     
     .action-btn--desktop {
         left: -100%;
         transition-delay: 100ms;
-        transition: left 250ms ease-out;
+        transition: left 150ms ease-out;
     }
 
     .mobile-nav-background {

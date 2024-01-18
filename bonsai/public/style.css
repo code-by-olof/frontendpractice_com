@@ -50,7 +50,15 @@ body {
 
 .section__section-heading {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.price-toggle {
+  margin: 0 0 0 5%;
+  height: 48px;
+  width: auto;
+  min-width: 130px;
+  border: 1px solid red;
 }
 
 nav .nav__ul--level-1 {
@@ -143,8 +151,7 @@ nav .li--dropwdown a {
 @media (width > 1100px) {
   .toggle-nav,
   .nav--mobile,
-  .action-btn--mobile,
-  .action-btn--desktop {
+  .action-btn--mobile {
     display: none;
   }
 }
@@ -157,11 +164,11 @@ nav .li--dropwdown a {
   }
   .nav.nav--mobile {
     left: 0%;
-    transition: left 250ms ease-out;
+    transition: left 150ms ease-out;
   }
   .nav.nav--desktop {
     left: -100%;
-    transition: left 250ms ease-out;
+    transition: left 150ms ease-out;
   }
   .nav__ul {
     margin: 0px auto;
@@ -197,12 +204,12 @@ nav .li--dropwdown a {
   .action-btn--mobile {
     left: 5%;
     transition-delay: 100ms;
-    transition: left 250ms ease-out;
+    transition: left 150ms ease-out;
   }
   .action-btn--desktop {
     left: -100%;
     transition-delay: 100ms;
-    transition: left 250ms ease-out;
+    transition: left 150ms ease-out;
   }
   .mobile-nav-background {
     position: absolute;
