@@ -124,6 +124,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-family: "Roboto", sans-serif;
+  color: #4c4d5f;
 }
 
 .section__plan {
@@ -148,6 +149,37 @@ body {
   font-size: 1.1rem;
   padding: 10px 0 8px 0;
   transform: rotate(45deg);
+}
+.section__plan--name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.section__plan--subtitle {
+  font-size: 0.75rem;
+}
+.section__plan--price {
+  display: flex;
+  justify-content: flex-start;
+  height: 3.8rem;
+  text-transform: uppercase;
+  padding: 0 0 5px 0;
+  border-bottom: 2px solid #00b289;
+}
+.section__plan--price__span {
+  font-size: 1.5rem;
+  font-size: 300;
+}
+.section__plan--price__span:first-of-type {
+  margin: 0 10px 0 0;
+  font-family: sans-serif;
+}
+.section__plan--price__span:last-of-type {
+  margin: 0 0 0 21px;
+  align-self: flex-end;
+}
+.section__plan--price__p {
+  font-size: 3.3rem;
+  font-weight: 700;
 }
 
 @media (width < 1100px) {

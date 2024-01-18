@@ -78,6 +78,7 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
+    color: var.$text-color-default;
 }
 
 .section__plan {
@@ -102,6 +103,44 @@
         font-size: 1.1rem;
         padding: 10px 0 8px 0;
         transform: rotate(45deg);
+    }
+
+    &--name {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    &--subtitle {
+        font-size: 0.75rem;
+    }
+
+    &--price {
+        display: flex;
+        justify-content: flex-start;
+        height: 3.8rem;
+        text-transform: uppercase;
+        padding: 0 0 5px 0;
+        border-bottom: 2px solid var.$highlight-color;
+
+        &__span {
+            font-size: 1.5rem;
+            font-size: 300;
+
+            &:first-of-type {
+                margin: 0 10px 0 0;
+                font-family: sans-serif;
+            }
+
+            &:last-of-type {
+                margin: 0 0 0 21px;
+                align-self: flex-end;
+            }
+        }
+
+        &__p {
+            font-size: 3.3rem;
+            font-weight: 700;
+        }
     }
 }
 
