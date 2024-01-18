@@ -1,3 +1,6 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mix;
+
 .section__section-heading {
     display: flex;
     justify-content: center;
@@ -5,8 +8,34 @@
 
 .price-toggle {
     margin: 0 0 0 5%;
-    height: 48px;
-    width: auto;
+    height: 68px;
     min-width: 130px;
+    background-image: url(./assets/img/text_offer-2-free-months.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
     border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 23px 0 23px;
+}
+
+.section__p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section__p--offer-label {
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 30px;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.section__price-switch {
+    width: 57px;
+    height: 30px;
+    background-color: var.$highlight-color;
+    border-radius: 17px;
+    margin: 0 29px 0 29px;
 }
