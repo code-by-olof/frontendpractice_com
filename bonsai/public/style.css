@@ -48,6 +48,11 @@ body {
   background-color: #008e6d;
 }
 
+.button--full-width {
+  width: 100%;
+  padding: 23px 0 23px 0;
+}
+
 .section__section-heading {
   margin: 145px 0 0 0;
   display: flex;
@@ -126,9 +131,13 @@ body {
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
   color: #4c4d5f;
+  margin: 50px 0 100px 0;
 }
 
 .section__plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   overflow: hidden;
   height: auto;
   width: 32%;
@@ -186,6 +195,14 @@ body {
   align-self: center;
   font-size: 3.2rem;
   font-weight: 600;
+}
+
+.section__body .section__plan--details {
+  align-items: flex-start;
+  margin: 0 0 50px 0;
+}
+.section__body .button {
+  align-self: flex-end;
 }
 
 .section__ul--plan-details {
