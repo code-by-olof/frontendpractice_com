@@ -2,11 +2,12 @@
 @use '../abstracts/mixins' as mix;
 
 header {
+    width: 1024px;
     height: 80px;
-    margin: 0 0 45px 0;
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    background-color: var.$white;
 
     .header__a--logo-desktop {
         display: block;

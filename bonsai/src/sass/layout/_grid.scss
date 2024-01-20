@@ -1,6 +1,24 @@
 @use '../abstracts/variables' as var;
 @use '../abstracts/mixins' as mix;
 
+body {
+    background-image: url(./assets/img/body-background.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100% auto;
+}
+
+.page-header {
+    width: 100%;
+    background-color: var.$white;
+    height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+}
+
 .page-container {
     margin: 0px auto;
     width: 1024px;
