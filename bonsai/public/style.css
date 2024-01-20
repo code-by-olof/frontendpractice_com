@@ -186,6 +186,20 @@ body {
   font-weight: 700;
 }
 
+.section__ul--plan-details {
+  margin: 43px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.section__ul--plan-details .li--plan-detail {
+  background-image: url(./assets/img/icon_check_dark.svg);
+  background-repeat: no-repeat;
+  background-position: left 5px;
+  padding: 0 0 0 19px;
+  margin: 0 0 19px 0;
+  font-size: 1rem;
+}
+
 .section__plan--popular .section__plan--name {
   margin: -40px 0 0 0;
 }
